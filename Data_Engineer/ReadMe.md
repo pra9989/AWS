@@ -58,8 +58,10 @@ AWS CodePipeline \
  \
 Frontend Web and Mobile \
 Amazon API Gateway \
+
 Machine Learning \
 Amazon SageMaker \
+
 Management and Governance \
 AWS CloudFormation \
 AWS CloudTrail \
@@ -68,6 +70,7 @@ AWS Config \
 Amazon Managed Grafana \
 AWS Systems Manager \
 AWS Well-Architected Tool \
+
 Migration and Transfer \
 AWS Application Discovery Service \
 AWS Application Migration Service \
@@ -75,11 +78,13 @@ AWS Database Migration Service (AWS DMS) \
 AWS DataSync \
 AWS Snow Family \
 AWS Transfer Family \
+
 Networking and Content Delivery \
 Amazon Direct Connect \
 AWS PrivateLink \
 Amazon Route 53 \
 Amazon VPC \
+
 Security, Identity, and Compliance \
 AWS Identity and Access Management (IAM) \
 AWS Key Management Service (AWS KMS) \
@@ -87,9 +92,9 @@ Amazon Macie \
 AWS Secrets Manager \
 AWS Shield \
 AWS WAF \
+
 Storage \
 AWS Backup \
 Amazon Elastic Block Store (Amazon EBS) \
 Amazon Elastic File System (Amazon EFS) \
 Amazon S3 \
- \
