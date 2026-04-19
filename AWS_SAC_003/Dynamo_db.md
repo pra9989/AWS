@@ -1,4 +1,4 @@
-dynamo db advanced features \
+**dynamo db advanced features **\
 1.Advanced Data Modeling \
 Composite Primary Keys \
 Partition key + sort key \
