@@ -1,11 +1,10 @@
-**dynamo db advanced features **\
+dynamo db advanced features \
 1.Advanced Data Modeling \
 Composite Primary Keys \
 Partition key + sort key \
- \
+
 Enables hierarchical and range-based queries \
-Example: \
- \
+Example:
 PK = USER#123 \
 SK = ORDER#2026-01 \
 Single Table Design \
@@ -28,8 +27,7 @@ Captures item-level changes (INSERT, MODIFY, DELETE) \
 Integrates with: \
 AWS Lambda \
 Event-driven pipelines \
-Use cases: \
- \
+Use cases: 
 Audit logs \
 Real-time analytics \
 Trigger workflows \
@@ -41,7 +39,6 @@ Atomicity \
 Consistency \
 Isolation \
 Durability \
- \
 Example:  Deduct balance + create order in one operation \
 5. Caching & Performance \
 DAX (DynamoDB Accelerator) \
@@ -55,7 +52,6 @@ Gaming, ad-tech, real-time apps \
 Active-Active Replication \
 Multi-region writes \
 Automatic conflict resolution (last writer wins) \
- \
 Use cases:  \
 Global apps \
 Disaster recovery \
@@ -64,56 +60,53 @@ Low-latency access worldwide \
 Automatic Expiry \
 Set timestamp attribute \
 DynamoDB deletes item automatically \
- \
-👉 Use cases: \
- \
-Sessions \
-Logs \
+Use cases: 
+Sessions 
+Logs 
 Temporary data \
-🔹 8. Fine-Grained Access Control \
-✅ IAM + Condition Keys \
+8. Fine-Grained Access Control \
+IAM + Condition Keys \
 Control access at item level \
 Example: \
 User can only access their own records \
-🔹 9. PartiQL Support \
-✅ SQL-like Queries \
+9. PartiQL Support \
+SQL-like Queries \
 Query DynamoDB using SQL syntax \
 SELECT * FROM Users WHERE userId = '123' \
-🔹 10. Backup & Restore \
-✅ On-Demand Backup \
+10. Backup & Restore \
+On-Demand Backup \
 Full table backup anytime \
-✅ Point-In-Time Recovery (PITR) \
+Point-In-Time Recovery (PITR) \
 Restore to any second in last 35 days \
-🔹 11. Auto Scaling & Capacity Modes \
-✅ On-Demand Mode \
+11. Auto Scaling & Capacity Modes \
+On-Demand Mode \
 No capacity planning \
 Pay per request \
-✅ Provisioned + Auto Scaling \
+Provisioned + Auto Scaling \
 Control costs with predictable workloads \
-🔹 12. Encryption & Security \
-✅ Encryption at Rest (KMS) \
+12. Encryption & Security \
+Encryption at Rest (KMS) \
 AWS-managed or customer-managed keys \
-✅ VPC Endpoints \
+VPC Endpoints \
 Secure private access \
-🔹 13. Advanced Query Features \
-✅ Filter Expressions \
+Advanced Query Features \
+Filter Expressions \
 Server-side filtering (after query) \
-✅ Projection Expressions \
+Projection Expressions \
 Fetch only required attributes \
-✅ Conditional Writes \
+Conditional Writes \
 ConditionExpression: "attribute_not_exists(userId)" \
 Prevent overwrites \
-🔹 14. Integration Ecosystem \
+Integration Ecosystem \
 Works seamlessly with: \
 AWS Lambda \
 API Gateway \
 Kinesis \
 Step Functions \
 S3 (via export) \
-🔹 15. Export & Import \
-✅ Export to S3 (No impact on table) \
+15. Export & Import \
+Export to S3 (No impact on table) \
 For analytics / data lake \
-✅ Import from S3 \
+Import from S3 \
 Bulk data loading \
- \
- \
+
