@@ -1,4 +1,4 @@
-
+https://www.youtube.com/watch?v=WZeZZ8_W-M4&t=1545s
 <img width="1815" height="1001" alt="image" src="https://github.com/user-attachments/assets/afea1d01-fd22-4ff4-a13b-a6f1decd0cb3" />
 Classification
 classification is a process of finding a funciton to divide a labeled datasets into classes/categories
