@@ -22,5 +22,17 @@ Learning Problems:
  Hybrid Learning Problems:
  Semi Supervised - training data contains very few labeled examples and a large number of unlabeled examples
  self Supervised - Framed as a supervised learning problem in order to apply supervised learning algorthims
+ Statistical inference  
+ inductive- using evidence to determine the outcome 
+ Deductive- using general rules to determine specific outcomes
+ Tranductive - used in statistical learning theory to predict specific examples given specific from a specific domain 
+ Learning Techniques:
+ Multi-Task - fitting a model on one dataset that addresses multiple releated problems
+ Active - the model is able to query a human user operator during the learning process in order to resolve ambiguity 
+ Online - using the available data and updating the model before a prediction is required or after the last observation
+ Transfer - a model is first trained on one task, then some or all of the model  is used as the starting point for the releated task
+ Esemble - where two or more models are fir on the same data and the predictions from each model are combined
+ <img width="1743" height="1074" alt="image" src="https://github.com/user-attachments/assets/1afa621e-1bf2-40ef-bcb2-f57fc87aee94" />
+
  ulti-instance - individual examples are unlabeled; instead bags or groups of samples are labeled
  
