@@ -16,3 +16,4 @@ IAM Features
 <img width="1250" height="760" alt="image" src="https://github.com/user-attachments/assets/0bf3a532-bac8-46ae-b3fe-fe09e0778f62" />
 Root Account best practices
 <img width="1312" height="715" alt="image" src="https://github.com/user-attachments/assets/96e850e8-242b-4a3e-a066-d551fa4731f0" />
+<img width="1267" height="734" alt="image" src="https://github.com/user-attachments/assets/50c92590-8b96-4e00-9c75-ccdea26d87f9" />
